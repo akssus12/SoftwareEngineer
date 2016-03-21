@@ -1,9 +1,12 @@
+# 
 '''
 Created on 2016. 3. 22.
 
 @author: AT3
 '''
 
-for a in range(5):
-    print(a)
-    
+import requests
+import re
+
+alice ="abcdefgabc"
+print(re.findall("abc", alice))
